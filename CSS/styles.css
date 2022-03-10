@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
-:root{ --bg-gray:#ddd;
+:root{
+     --bg-gray:#ddd;
+     --text-gray:#4A4A4A;
     --color-primary:#4D41C0;
     --white:#fff;
 
@@ -44,4 +46,40 @@ a,a:hover{
         .DsMovies-contact-container img{
             margin-right:10px;
         }
-      
+#DsMovies-card-list{
+    padding:40px 0;
+}
+.DsMovies-card{
+    width:200px;
+    height:270px;
+   }
+.DsMovies-card img{
+    width:100%;
+    border-radius:8px 8px 0 0;
+}
+.DsMovies-card-Description{
+    padding:10px 0 20px 0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:var(--white);
+    border-radius: 0 0 8px 8px;
+}
+.DsMovies-card-Description h3 {
+    font-size:18px;
+    font-weight: 700;
+    margin-bottom:25px;
+    
+}
+.DsMovies-btn, .DsMovies-btn:hover{ 
+    width:180px;
+            height:40;
+            background-color:var(--color-primary);
+            color:var(--white);
+            font-size:14px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius:4px;
+}
