@@ -50,8 +50,8 @@ a,a:hover{
     padding:40px 0;
 }
 .DsMovies-card{
-    width:200px;
-    height:270px;
+    width:100%;
+    
    }
 .DsMovies-card img{
     width:100%;
