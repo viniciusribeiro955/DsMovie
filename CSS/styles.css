@@ -5,7 +5,7 @@
      --text-gray:#4A4A4A;
     --color-primary:#4D41C0;
     --white:#fff;
-
+    --text-light-gray:#aaa;
 }
 *{margin:0;
      box-sizing: border-box;
@@ -84,9 +84,46 @@ a,a:hover{
             align-items: center;
             justify-content: center;
             border-radius:4px;
+            border:0;
 }
 
 .DsMovies-form-container {
     padding:40px 0 ;
     max-width:480px;
 }
+
+
+.DsMovies-form-Description{
+    background-color:var(--white);
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;   
+}
+
+.DsMovies-form{
+    width: 100%;
+}
+
+.DsMovies-form-Description h3{
+    font-size:13px;
+    font-weight: 700;
+}
+
+.DsMovies-form-group{
+    margin-bottom:20px;
+}
+
+.DsMovies-form-group label{
+  font-size:12px;
+  color: var(--text-light-gray);
+}
+.DsMovies-form-btn-container{
+    height:60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
